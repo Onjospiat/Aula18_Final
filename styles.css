@@ -44,3 +44,8 @@ h1 {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+#grid_imagens{
+  display:grid;
+  grid-template-columns: repeat(2,1fr);
+}
