@@ -84,3 +84,27 @@ nav:hover p, nav .oculto{
 nav:hover button{
   display: inline-block;
 }
+
+/*Aula 18 começa aqui*/
+
+.overlay-text{
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  color:#eee;
+  top:0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+.fundo_img{
+  position: relative;
+}
+
+.overlay-text:hover{
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
